@@ -15,4 +15,4 @@ apis, schema = create_api(
     Material, session
 )
 register_all_apis(app, schema, (apis,))
-app.run()
+app.run(host='0.0.0.0', port=5000)
