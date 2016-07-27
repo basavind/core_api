@@ -1,0 +1,4 @@
+-e git+https://github.com/purpleP/flask_alchemy_rest#egg=flask_alchemy_rest
+-e git+https://github.com/purpleP/more_functools#egg=more_functools
+flask
+sqlalchemy
